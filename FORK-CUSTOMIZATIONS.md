@@ -1,6 +1,6 @@
 # Fork Customizations
 
-> This repository is a fork of [unknown]().
+> This repository is a fork of [RamiAwar/dataline](https://github.com/RamiAwar/dataline).
 > Managed under the [iAiFy Enterprise](https://github.com/enterprises/iAiFy) governance model.
 
 ## Purpose
@@ -11,7 +11,7 @@ Chat with your data - AI data analysis and visualization on CSV, Postgres, MySQL
 
 | Property | Value |
 |----------|-------|
-| Upstream | [unknown]() |
+| Upstream | [RamiAwar/dataline](https://github.com/RamiAwar/dataline) |
 | Language | TypeScript |
 | Fork org | AiFeatures |
 
