@@ -47,7 +47,7 @@ readme = "README.md"
 
 [dependency-groups]
 dev = [
-    "black<25.0.0,>=24.3.0",
+    "black>=24.3.0,<27.0.0",
     "pre-commit<4.0.0,>=3.4.0",
     "pyinstaller==6.11.*",
     "pytest<9.0.0,>=8.0.2",
