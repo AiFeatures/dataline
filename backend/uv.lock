@@ -508,7 +508,7 @@ wheels = [
 
 [[package]]
 name = "cx-freeze"
-version = "6.15.16"
+version = "6.15.15"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cx-logging", marker = "sys_platform == 'win32'" },
@@ -517,18 +517,18 @@ dependencies = [
     { name = "setuptools" },
     { name = "wheel" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/aa/f2/acda72a8d7d36f97c9ed968f340060c46c22b1ae8393e975eeca524f0ec0/cx_Freeze-6.15.16.tar.gz", hash = "sha256:c63991886ff2a5319f8f0d07c0349a6bbe1a65b5f320f8b9243888e63c9a4a22", size = 1741290, upload-time = "2024-03-16T04:53:34.509Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a3/9f/f5f144ae1c353a71bbf37c0ddf4a78b0c6fa24eea65c491d70186505a4df/cx_Freeze-6.15.15.tar.gz", hash = "sha256:74c0abe6e95a0415cb4fbf55c625bc2501269783fac2dd2d71eb4d78e93f2219", size = 1739450, upload-time = "2024-02-10T09:32:26.512Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/9b/8e/6bc026bcc5514680a4c68a29985ca1bfa1aa9809516e24ca2f00401e2bd2/cx_Freeze-6.15.16-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:fa2d81b75ba395c43112c8cdcbfe0eb96a584ee20a1c8c65f351cfee1b2b5011", size = 19760766, upload-time = "2024-03-16T04:52:26.925Z" },
-    { url = "https://files.pythonhosted.org/packages/f4/63/e2dd7adf65b0210c8d307c9f0a5db5c38a2f7ccce0d1315f8dae6f46dfa8/cx_Freeze-6.15.16-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:47d01d580179475b5bca2d6b4daac980a71f511c9fbc1835862c1a5be8093f0c", size = 19760482, upload-time = "2024-03-16T04:52:30.279Z" },
-    { url = "https://files.pythonhosted.org/packages/3c/58/c13a88b479c8ce89ee1eb306f9f8d789f309c57bce599f2825f251ae6394/cx_Freeze-6.15.16-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:34748640132bbb32cd7360b77400afef83da3fc1e17087991eb67f3ccd8861e6", size = 11926966, upload-time = "2024-03-16T04:52:33.297Z" },
-    { url = "https://files.pythonhosted.org/packages/82/1f/42c28f79415b4faa75ad14dc42a70b7c73094f1d7c9a78a4e7c96c26f9d0/cx_Freeze-6.15.16-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:5b1189e582da663fb43968ff0e42f3b88685d25c9a760183c520fe995323d55b", size = 13374243, upload-time = "2024-03-16T04:52:36.303Z" },
-    { url = "https://files.pythonhosted.org/packages/3e/84/ed21aa38653996afaec7120c6170d855a0d184752388aae17f7e960bdfdb/cx_Freeze-6.15.16-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5da927ea634f4e3106409ebfcbe108c7f80f4e71ba6bb0addf87a5a4e32da82e", size = 12147992, upload-time = "2024-03-16T04:52:38.555Z" },
-    { url = "https://files.pythonhosted.org/packages/3c/fc/11273e7ebc46ca6d7939c578d93b497b5c7582f6548da3eb405668e87d26/cx_Freeze-6.15.16-cp311-cp311-musllinux_1_1_aarch64.whl", hash = "sha256:319344d81a2fc35f500c5a41555394848afe721cd0c084345b7ffa8f605b1d5e", size = 10685591, upload-time = "2024-03-16T04:52:40.916Z" },
-    { url = "https://files.pythonhosted.org/packages/5e/f1/01487851b95265bf0fd9d7bf354b3ebed5a1b628ffaded20097ba1aab98f/cx_Freeze-6.15.16-cp311-cp311-musllinux_1_1_ppc64le.whl", hash = "sha256:d9f5f7a7e8978d22913e273580c715d93419134092c67b9b305ff7a902d26aa2", size = 11419243, upload-time = "2024-03-16T04:52:43.172Z" },
-    { url = "https://files.pythonhosted.org/packages/d2/e0/aac1a4b26ec4319f32d83ce4e1594dc0cb972f5d1bec454e56d7d8c3206f/cx_Freeze-6.15.16-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:eb850a5953407781a2a6a8ad65247bee8e85fb802534adb7701fb0b3e437cd87", size = 10791239, upload-time = "2024-03-16T04:52:45.882Z" },
-    { url = "https://files.pythonhosted.org/packages/66/21/884e8f331bf6cad7fc2cf467b3ee797d0af184a2d761abd727a19e845f47/cx_Freeze-6.15.16-cp311-cp311-win32.whl", hash = "sha256:950b1e75919fa200b567880a452b3d0bfe7ed2dda87e1efb4790446aaa28b207", size = 453720, upload-time = "2024-03-16T04:52:48.641Z" },
-    { url = "https://files.pythonhosted.org/packages/7a/64/0c895c6455b84db11ec112c289587e0792383109c839322e52fb1b0597e4/cx_Freeze-6.15.16-cp311-cp311-win_amd64.whl", hash = "sha256:af91d44b50baec3584695d4f48b0a67828564dcc5ec5e94c6e62e4ccc31d4f1c", size = 456466, upload-time = "2024-03-16T04:52:50.76Z" },
+    { url = "https://files.pythonhosted.org/packages/31/20/a9108bad2799cbf5b0f00fe3bd9e59f583d839a55ce0a8437d746f196a98/cx_Freeze-6.15.15-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:57230a64d7dead4f347822a58e8b021783b848232f5937ffc7f66bee653f5090", size = 19716761, upload-time = "2024-02-10T09:31:20.974Z" },
+    { url = "https://files.pythonhosted.org/packages/ec/bf/0ae7ef112ab0ae785cdce54acb8e0191461f21716393994f83f9f0c8653e/cx_Freeze-6.15.15-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:fee01124a6fa92e02a241821dde689aa94bb6b58707cae7b7a85985126bd3f8c", size = 19716484, upload-time = "2024-02-10T09:31:23.428Z" },
+    { url = "https://files.pythonhosted.org/packages/5e/29/eded93e89a7819026e9c525ae06daa8baef455495617026754c9cfef485d/cx_Freeze-6.15.15-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c04b99c297b0588085a3b1a579850f70c5fdb985289bdc3343477b5eccf6560e", size = 11905739, upload-time = "2024-02-10T09:31:26.278Z" },
+    { url = "https://files.pythonhosted.org/packages/62/11/398da33b36bb52ecc02939a9314993e2e39de8d8c9e9f33e17a1ca2a3112/cx_Freeze-6.15.15-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:ed01eebffd42b182966f2436bd976bf1ea4502d5c07d92944a719f09bc1d1ea7", size = 13352085, upload-time = "2024-02-10T09:31:29.2Z" },
+    { url = "https://files.pythonhosted.org/packages/d4/94/7c3b5eed68d66092f030caa47b9bc3b50945f2ed8f9490ddba75f8ddae3e/cx_Freeze-6.15.15-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4985589fab1c118e43ed9cab20bbff264528e67624b6eccc0f5a9db1ed1c4d64", size = 12136361, upload-time = "2024-02-10T09:31:31.795Z" },
+    { url = "https://files.pythonhosted.org/packages/fe/87/5ce543536d3e9cd8d788cb4f1ffb554a96ffdd7359f190d4965d399cef9f/cx_Freeze-6.15.15-cp311-cp311-musllinux_1_1_aarch64.whl", hash = "sha256:c40104a0e409b70d50f4e14478cac33354ecef0373cceb834d6bf03558ba035f", size = 10675958, upload-time = "2024-02-10T09:31:34.462Z" },
+    { url = "https://files.pythonhosted.org/packages/3a/05/660f0cc23f9fe928c407966bd6122e7ca96e32b69d3585e0bb944179dfb7/cx_Freeze-6.15.15-cp311-cp311-musllinux_1_1_ppc64le.whl", hash = "sha256:ec1c52b0fe7bcd344049dff2efd7c38cbc03c80423a9eecb51a5d85fb932b63a", size = 11408354, upload-time = "2024-02-10T09:31:36.724Z" },
+    { url = "https://files.pythonhosted.org/packages/08/0a/cb9d704025b52181c674a6db7973190c478458b3fe457a41c9cc1bcff73c/cx_Freeze-6.15.15-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:823ab6875efe6b2f797ad2c7fbf02a9b43edb34d341d279c4b34bc5b1156379b", size = 10782305, upload-time = "2024-02-10T09:31:38.943Z" },
+    { url = "https://files.pythonhosted.org/packages/b9/dc/fbaf17fd7b9f499a448df918a86ca825c7d002fe18f825d0e479131a8ea8/cx_Freeze-6.15.15-cp311-cp311-win32.whl", hash = "sha256:ff75513d82dae431f72f27a10e2327985f59c10ebbc7895d3f4bb16e1d861bf0", size = 446733, upload-time = "2024-02-10T09:31:41.734Z" },
+    { url = "https://files.pythonhosted.org/packages/56/62/f30c1549c26b1277dc7c5695004bea256902345cc2e8a4bca0b0087f1931/cx_Freeze-6.15.15-cp311-cp311-win_amd64.whl", hash = "sha256:224febd5096fb1bda52693cd3a65b3cbace634288c92960092f3c61911abaaed", size = 449516, upload-time = "2024-02-10T09:31:43.037Z" },
 ]
 
 [[package]]
@@ -1690,11 +1690,11 @@ wheels = [
 
 [[package]]
 name = "lief"
-version = "0.14.1"
+version = "0.14.0"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e3/d3/e839813dc9c4a63d20ad3688b0a837b39bc69d9437873a1488095f8d7660/lief-0.14.1-cp311-cp311-win32.whl", hash = "sha256:473e9a37beef8db8bab1a777271aa49cce44dfe35af65cb8fad576377518c0bd", size = 1948904, upload-time = "2024-02-11T20:02:18.042Z" },
-    { url = "https://files.pythonhosted.org/packages/8e/ac/24163962eef96d0fd0b7827cc336403197ef823387bdce29d999d96f9c24/lief-0.14.1-cp311-cp311-win_amd64.whl", hash = "sha256:24f687244e14d4a8307430babc5c712a1dd4e519172886ad4aeb9825f88f7569", size = 2185804, upload-time = "2024-02-11T20:02:21.098Z" },
+    { url = "https://files.pythonhosted.org/packages/b6/f6/6d1995ae7aa8a8aa1640ced861ed62bb43942d0cdaa475b0a15bea1b7b33/lief-0.14.0-cp311-cp311-win32.whl", hash = "sha256:ba29aabd72e92334d54883d58b108f80465973edaec3e27cb422abbc657bfe17", size = 1949598, upload-time = "2024-01-20T17:12:42.025Z" },
+    { url = "https://files.pythonhosted.org/packages/d4/fe/43d7b631392f26522f2a28bfd2784db10f33e7df6dddff73bdcfe4bd2661/lief-0.14.0-cp311-cp311-win_amd64.whl", hash = "sha256:33f2afdf9f00a8a208d5f32135834fc5f02bd12e8b14f0857cf14d4475ad03bb", size = 2187356, upload-time = "2024-01-20T17:12:45.36Z" },
 ]
 
 [[package]]
@@ -3943,11 +3943,14 @@ wheels = [
 
 [[package]]
 name = "wheel"
-version = "0.43.0"
+version = "0.46.2"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/b8/d6/ac9cd92ea2ad502ff7c1ab683806a9deb34711a1e2bd8a59814e8fc27e69/wheel-0.43.0.tar.gz", hash = "sha256:465ef92c69fa5c5da2d1cf8ac40559a8c940886afcef87dcf14b9470862f1d85", size = 99109, upload-time = "2024-03-11T19:29:17.32Z" }
+dependencies = [
+    { name = "packaging" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/9b/92/3a64fa9639b8e290fe8630d8067a66f7c5510845c6d73686ad880c9b04d9/wheel-0.46.2.tar.gz", hash = "sha256:3d79e48fde9847618a5a181f3cc35764c349c752e2fe911e65fa17faab9809b0", size = 60274, upload-time = "2026-01-21T23:55:25.838Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/7d/cd/d7460c9a869b16c3dd4e1e403cce337df165368c71d6af229a74699622ce/wheel-0.43.0-py3-none-any.whl", hash = "sha256:55c570405f142630c6b9f72fe09d9b67cf1477fcf543ae5b8dcb1f5b7377da81", size = 65775, upload-time = "2024-03-11T19:29:15.522Z" },
+    { url = "https://files.pythonhosted.org/packages/13/2c/5e079cefe955ae58e5a052fe037c850ce493eb7269dedeb960237e78fb0f/wheel-0.46.2-py3-none-any.whl", hash = "sha256:33ae60725d69eaa249bc1982e739943c23b34b58d51f1cb6253453773aca6e65", size = 29971, upload-time = "2026-01-21T23:55:24.447Z" },
 ]
 
 [[package]]
