@@ -25,7 +25,7 @@ dependencies = [
     "pytest-asyncio<1.0.0,>=0.23.6",
     "langchain==0.3.*",
     "langgraph==0.2.*",
-    "langsmith<1.0.0,>=0.1.57",
+    "langsmith>=0.7.31,<1.0.0",
     "langchain-openai==0.2.*",
     "mirascope==1.6.*",
     "tenacity<9.0.0,>=8.2.3",
