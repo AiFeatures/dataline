@@ -51,7 +51,7 @@ dev = [
     "pre-commit<4.0.0,>=3.4.0",
     "pyinstaller==6.11.*",
     "pytest<9.0.0,>=8.0.2",
-    "jupyterlab<5.0.0,>=4.0.5",
+    "jupyterlab>=4.5.7,<5.0.0",
     "mypy<2.0.0,>=1.6.1",
     "cx-freeze<7.0.0,>=6.15.14",
     "types-pygments<3.0.0.0,>=2.17.0.20240310",
