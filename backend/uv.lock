@@ -639,7 +639,7 @@ requires-dist = [
     { name = "python-multipart", specifier = ">=0.0.9,<=0.0.22" },
     { name = "rapidfuzz", specifier = ">=3.0.0,<4.0.0" },
     { name = "sentry-sdk", extras = ["fastapi"], specifier = ">=2.8.0,<3.0.0" },
-    { name = "snowflake-sqlalchemy", specifier = ">=1.6.1,<2.0.0" },
+    { name = "snowflake-sqlalchemy", specifier = ">=1.11.0,<2.0.0" },
     { name = "sqlalchemy", extras = ["asyncio"], specifier = ">=2.0.27,<3.0.0" },
     { name = "tenacity", specifier = ">=8.2.3,<9.0.0" },
     { name = "uvicorn", extras = ["standard"], specifier = ">=0.21.1,<1.0.0" },
@@ -1702,7 +1702,7 @@ name = "macholib"
 version = "1.16.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "altgraph", marker = "(platform_machine != 'aarch64' and platform_machine != 'armv7l' and platform_machine != 'i686' and platform_machine != 'ppc64le' and platform_machine != 's390x' and platform_machine != 'x86_64') or sys_platform != 'linux'" },
+    { name = "altgraph" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/10/2f/97589876ea967487978071c9042518d28b958d87b17dceb7cdc1d881f963/macholib-1.16.4.tar.gz", hash = "sha256:f408c93ab2e995cd2c46e34fe328b130404be143469e41bc366c807448979362", size = 59427, upload-time = "2025-11-22T08:28:38.373Z" }
 wheels = [
@@ -3464,15 +3464,15 @@ wheels = [
 
 [[package]]
 name = "snowflake-sqlalchemy"
-version = "1.9.0"
+version = "1.11.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "snowflake-connector-python" },
     { name = "sqlalchemy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ff/6a/fcc5c00c3a253029a7b7b293a3958ba07d5e97623b643de47be0cc9e5530/snowflake_sqlalchemy-1.9.0.tar.gz", hash = "sha256:fb32baf559f7f933ae8fde2ec535bcea5381bb15188777cd8c006b3226efa3b1", size = 141707, upload-time = "2026-03-04T13:48:17.905Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/82/54/f9f7e3701e4b35bcb9fbdc14cdb347133bbe3c5a9e87071649f3934b283d/snowflake_sqlalchemy-1.11.0.tar.gz", hash = "sha256:95866fe499a8ba692f01eb107741050efc553361e1674e3e44ea4a890b4df00c", size = 248059, upload-time = "2026-07-08T08:53:39.248Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/88/28/b7ae8df80847e8157b74669ad7e1b0180e82ac0e3daf950612effd232fea/snowflake_sqlalchemy-1.9.0-py3-none-any.whl", hash = "sha256:f0b1528173e93c8c80bd9ca510985054667e0e514dd90b890271ac1cfae261c1", size = 78953, upload-time = "2026-03-04T13:48:16.393Z" },
+    { url = "https://files.pythonhosted.org/packages/ea/9a/f8d0165f5d2447a0d7e10dc309c7ea1af6782aa1b357164d25dcb567b196/snowflake_sqlalchemy-1.11.0-py3-none-any.whl", hash = "sha256:f5fad9e86441812ad1f23aef92a2e612d65408338221ae39b9becedb7329a6e2", size = 117058, upload-time = "2026-07-08T08:53:38.053Z" },
 ]
 
 [[package]]
